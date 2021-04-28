@@ -1,0 +1,115 @@
+.menu-lista {
+    padding: 15px;
+    border-bottom: 1px solid #dfdfdf;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao-addProduto {
+    height: 38px;
+    padding: 10px;
+    border: 1px solid rgba(77, 219, 55);
+    border-radius: 2px;
+    margin-right: 20px;
+    background: transparent;
+    color: rgb(77, 219, 55);
+    font-size: 0.9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.botao-addProduto:hover {
+    background: rgba(77, 219, 55, 0.8);
+    color: #f8faf8;
+}
+
+.form-buscarProduto {
+    display: flex;
+}
+
+.form-campoBusca {
+    padding: 10px;
+    border: 1px solid rgba(72, 219, 49, 0.8);
+    border-radius: 3px 0 0 3px;
+}
+
+.form-botaoBuscar {
+    background: rgb(77, 219, 55);
+    color: #f8faf8;
+    font-size: 0.9em;
+    cursor: pointer;
+    border: 0;
+    border-radius: 0 3px 3px 0;
+}
+
+.conteudoPrincipal-lista {
+    width: 100%;
+}
+
+.conteudoPrincipal-lista-produto {
+    padding: 15px;
+    border-bottom: 1px solid #dfdfdf;
+    display: flex;
+}
+
+.conteudoPrincipal-lista-produto .produto-img {
+    width: 100px;
+    height: 100px;
+    background-color: #e3efe3;
+}
+
+.conteudoPrincipal-lista-produto .produto-sobre {
+    padding: 0 20px;
+    flex-grow: 1;
+}
+
+.conteudoPrincipal-lista-produto .produto-nome {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.conteudoPrincipal-lista-produto .produto-codigo {
+    display: inline-block;
+    color: #888888;
+    font-size: 0.9em;
+    font-weight: 100;
+}
+
+.botao-editar {
+    background: transparent;
+    color: rgb(77, 219, 55);
+    font-size: 0.9em;
+    padding: 6px;
+    border: 1px solid rgba(77, 219, 55);
+    border-radius: 2px;
+    margin-right: 15px;
+    align-self: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.botao-editar:hover {
+    background: rgb(77, 219, 55);
+    color: #f8faf8;
+}
+
+.botao-excluir {
+    background: transparent;
+    color: rgb(219, 55, 55);
+    font-size: 0.9em;
+    padding: 6px;
+    border: 1px solid rgb(219, 55, 55);
+    border-radius: 2px;
+    margin-right: 15px;
+    align-self: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.botao-excluir:hover {
+    background: rgb(219, 55, 55);
+    color: #faf8f8;
+}

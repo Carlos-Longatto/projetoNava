@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <aside class="navbar-side">
+        <h1 class="navbar-side-titulo">Menu</h1>
+        <div class="navbar-container">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="index.html" class="nav-link">Página Inicial</a></li>
+                <li class="nav-item"><a href="produtos.html" class="nav-link">Produtos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Relatórios</a></li>
+            </ul>
+            <div class="navbar-usuario">
+                <div class="usuario-img"></div>
+                <h2 class="usuario-nome">Usuário</h2>
+            </div>
+        </div>
+    </aside>
+    
+    <div class="container">
+        <header class="conteudoPrincipal-cabecalho">
+            <h1 class="conteudoPrincipal-titulo">Dashboard</h1>
+            <a href="login.html" class="logout">Sair</a>
+        </header>
+    
+        <main class="conteudoPrincipal">
+            <form class="form-pesquisa">
+                <input type="text" id="pesquisa" class="form-pesquisa-input">
+                <button type="submit" class="form-pesquisa-botao">Pesquisar</button>
+            </form>
+    
+            <div class="conteudoPrincipal-container">
+                <div class="card">
+                    <div class="card-titulo">
+                        <h2>Produtos</h2>
+                    </div>
+    
+                    <div class="card-conteudo">
+                        <p>Produtos cadastrados: 0</p>
+                        <a href="produtos.html" class="card-link">Ver mais</a>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-titulo">
+                        <h2>Relatórios</h2>
+                    </div>
+    
+                    <div class="card-conteudo">
+                        <a href="#" class="card-link">Ver mais</a>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <div class="card-titulo">
+                        <h2>Equipe</h2>
+                    </div>
+    
+                    <div class="card-conteudo">
+                        <a href="#" class="card-link">Ver mais</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

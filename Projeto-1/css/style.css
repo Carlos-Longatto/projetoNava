@@ -1,0 +1,167 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+body {
+    background-color: #f8faf8;
+    display: flex;
+}
+
+.navbar-side {
+    box-sizing: border-box;
+    width: 20%;
+    height: 100vh;
+    padding: 25px 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 3px 0 7px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-side-titulo {
+    padding: 8px 0 0 25px;
+    margin-bottom: 50px;
+}
+
+.navbar-side .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.nav-item {
+    padding: 8px 0;
+}
+
+.nav-link {
+    padding-left: 25px;
+    color: #f8f9f8;
+    font-size: 0.9em;
+    font-weight: bold;
+    line-height: 1.5em;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    display: block;
+    transition: 0.2s;
+}
+
+.nav-link:hover {
+    color: rgb(149, 253, 133);
+}
+
+.navbar-usuario {
+    padding: 0 0 0 25px;
+    display: flex;
+    align-items: center;
+}
+
+.usuario-img {
+    width: 35px;
+    height: 35px;
+    background-color: #f7f7f7;
+    border-radius: 50%;
+}
+
+.navbar-usuario .usuario-nome {
+    padding-left: 15px;
+    flex-grow: 1;
+    color: #f8f9f8;
+}
+
+.navbar-usuario-logout {
+    color: rgba(255, 255, 255, 0.7);
+    transition: 0.2s;
+    
+}
+
+.navbar-usuario-logout:hover {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.container {
+    box-sizing: border-box;
+    width: 80%;
+    padding: 30px 50px;
+}
+
+.conteudoPrincipal-cabecalho {
+    padding: 0 30px 20px 30px;
+    border-bottom: 1px solid #dfdfdf;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteudoPrincipal-titulo {
+    font-size: 1.5em;
+}
+
+.conteudoPrincipal-cabecalho .logout {
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.conteudoPrincipal-cabecalho .logout:hover {
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+}
+
+.conteudoPrincipal .conteudoPrincipal-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteudoPrincipal .form-pesquisa {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 30px 15px;
+}
+
+.form-pesquisa .form-pesquisa-input {
+    width: 80%;
+    padding: 10px;
+    padding-left: 30px;
+    border: 1px solid rgba(72, 219, 49, 0.8);
+    border-radius: 18px 0 0 18px;
+}
+
+.form-pesquisa .form-pesquisa-botao {
+    background-color: rgba(72, 219, 49, 0.8);
+    color: #f8faf8;
+    border: 0;
+    border-radius: 0 18px 18px 0;
+    cursor: pointer;
+}
+
+.card {
+    box-sizing: border-box;
+    width: 45%;
+    border: 1px solid #efefef;
+    border-radius: 2px;
+    margin: 10px;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.card .card-titulo {
+    border-bottom: 1px solid #efefef;
+    padding: 15px;
+}
+
+.card .card-conteudo {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card-conteudo .card-link {
+    padding: 10px;
+    align-self: flex-end;
+}
